@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d278d-f6b0-4ef2-b922-86224e26593f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1a408427-b2db-44d3-8989-9e697154fed5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1a408427-b2db-44d3-8989-9e697154fed5/storage_v2/_src_/database/Hibernate.MriQQQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1a408427-b2db-44d3-8989-9e697154fed5/storage_v2/_src_/database/Hibernate.MriQQQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateConnection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/model/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/store/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/store/UserStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/store/UserStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,14 +85,16 @@
     <session id="738187684">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -129,16 +121,16 @@
           <entry key="java" value="335" />
           <entry key="jsp" value="251" />
           <entry key="tld" value="315" />
-          <entry key="txt" value="9" />
-          <entry key="xml" value="196" />
+          <entry key="txt" value="21" />
+          <entry key="xml" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="335" />
           <entry key="JSP" value="251" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="511" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="XML" value="513" />
         </counts>
       </usages-collector>
     </session>
@@ -152,9 +144,6 @@
               <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#526#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -209,7 +198,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/model/User.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -227,7 +216,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -264,8 +253,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/com.model/User.hbm.xml.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/com.model/User.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -308,7 +297,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -320,8 +309,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,12 +371,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534704505649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534707720394" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -534,7 +523,9 @@
       <workItem from="1534685411037" duration="4514000" />
       <workItem from="1534699021651" duration="2107000" />
       <workItem from="1534701844329" duration="170000" />
-      <workItem from="1534702145271" duration="2721000" />
+      <workItem from="1534702145271" duration="4269000" />
+      <workItem from="1534785293909" duration="920000" />
+      <workItem from="1534790589146" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="User view">
       <created>1534688739527</created>
@@ -543,17 +534,24 @@
       <option name="project" value="LOCAL" />
       <updated>1534688739527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hibernate">
+      <created>1534704926012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534704926013</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12137000" />
+    <option name="totallyTimeSpent" value="14888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Persistence" sideWeight="0.50647247" side_tool="true" visible="true" weight="0.26332623" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935275" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49190938" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -561,11 +559,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.505423" side_tool="true" weight="0.26332623" />
-      <window_info anchor="bottom" id="Database Console" weight="0.329718" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.329718" />
+      <window_info id="Persistence" order="8" sideWeight="0.5080906" side_tool="true" visible="true" weight="0.26865673" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,16 +574,18 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49676377" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4978308" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" sideWeight="0.50323623" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" sideWeight="0.5021692" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +596,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="User view" />
-    <option name="LAST_COMMIT_MESSAGE" value="User view" />
+    <MESSAGE value="Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,6 +622,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1a408427-b2db-44d3-8989-9e697154fed5/database/Hibernate/schema/public/table/hibernate/index/hibernate_pkey">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/UserStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,43 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/UserStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#526#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1a408427-b2db-44d3-8989-9e697154fed5/database/Hibernate/schema/public/table/hibernate/index/hibernate_pkey">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/model/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -700,10 +684,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
