@@ -1,9 +1,17 @@
 package com.model;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table(name = "Hibernate")
 public class User {
+    @Id
+    @Column(name = "user_id")
+    @GeneratedValue(generator = "native")
     private int id;
+
+    @Column (name = "user_nic")
     private String userName;
 
     public User() {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="1a408427-b2db-44d3-8989-9e697154fed5">
+    <data-source source="LOCAL" name="HibernateConnection/Hibernate" uuid="96815685-04d4-4015-9e13-3ec18eed72e6">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>Hibernate
 
-E:/Java/workspaceIntel/HibernateConnection/src/main/resources/hibernate.cfg.xml</remarks>
+E:/Java/workspaceIntel/HibernateConnection/src/resources/META-INF/Persistence.xml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/Hibernate</jdbc-url>
     </data-source>

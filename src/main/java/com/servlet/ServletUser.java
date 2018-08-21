@@ -17,4 +17,11 @@ public class ServletUser extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("/view/UserView.jsp");
         dispatcher.forward(request, response);
     }
+
+
+    @Override
+    public void destroy() {
+        super.destroy();
+        this.userStore.close();
+    }
 }
