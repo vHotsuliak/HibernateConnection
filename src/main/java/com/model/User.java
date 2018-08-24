@@ -1,5 +1,7 @@
 package com.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.util.Objects;
 
@@ -8,7 +10,8 @@ import java.util.Objects;
 public class User {
     @Id
     @Column(name = "user_id")
-    @GeneratedValue(generator = "native")
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
     private int id;
 
     @Column (name = "user_nic")
@@ -45,5 +48,13 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(id, userName);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                '}';
     }
 }

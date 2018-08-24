@@ -1,34 +1,35 @@
 package com.store;
 
+
 import com.model.User;
-import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.Collection;
 
 public class UserStore {
 
-    private  final EntityManagerFactory managerFactory;
+    private  final EntityManagerFactory entityManagerFactory;
 
     public UserStore() {
-        this.managerFactory = Persistence.createEntityManagerFactory("HibernateConnection");
+        this.entityManagerFactory = Persistence.createEntityManagerFactory("HibernateConnection");
     }
 
     @SuppressWarnings("JpaQlInspection")
     public Collection<User> value() {
-        Session session = managerFactory.unwrap(Session.class);
-        Transaction transaction = session.beginTransaction();
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        EntityTransaction transaction = entityManager.getTransaction();
         try {
-            return session.createQuery("from Hibernate").list();
+            return entityManager.createQuery("FROM  User").getResultList();
         } finally {
-            session.close();
             transaction.commit();
         }
     }
 
     public void close() {
-        this.managerFactory.close();
+        this.entityManagerFactory.close();
     }
 }
