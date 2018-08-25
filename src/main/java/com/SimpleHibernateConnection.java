@@ -1,20 +1,20 @@
 package com;
 
+import com.store.UserStore;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 public class SimpleHibernateConnection {
     public static void main(String[] args) {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("HibernateConnection");
-
+        final UserStore userStore = new UserStore();
         try {
-            EntityManager entityManager = entityManagerFactory.createEntityManager();
-            for (Object user : entityManager.createQuery(" from  User").getResultList()) {
+            for (Object user : userStore.value()) {
                 System.out.println("args = [" + user + "]");
             }
         } finally {
-            entityManagerFactory.close();
+            userStore.close();
         }
     }
 }

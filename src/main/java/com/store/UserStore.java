@@ -18,14 +18,14 @@ public class UserStore {
         this.entityManagerFactory = Persistence.createEntityManagerFactory("HibernateConnection");
     }
 
-    @SuppressWarnings("JpaQlInspection")
     public Collection<User> value() {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
-        EntityTransaction transaction = entityManager.getTransaction();
         try {
+            entityManager.getTransaction().begin();
             return entityManager.createQuery("FROM  User").getResultList();
         } finally {
-            transaction.commit();
+            entityManager.getTransaction().commit();
+            entityManager.close();
         }
     }
 
