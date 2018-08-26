@@ -20,7 +20,7 @@
     <%--@elvariable id="users" type="java.util.List"--%>
     <c:forEach var="user" items="${users}">
     <tr>
-        <td>${user}</td>
+        <td>${user.userName}</td>
     </tr>
     </c:forEach>
 </body>

@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="HibernateConnection:war exploded" />
+      <artifact name="HibernateConnection:web exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d278d-f6b0-4ef2-b922-86224e26593f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/terminal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96815685-04d4-4015-9e13-3ec18eed72e6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateConnection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateConnection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SimpleHibernateConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SimpleHibernateConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/UserView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/UserView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/META-INF/Persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/store/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HibernateConnection/WEB-INF/classes/com/store/UserStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/store/UserStore.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,80 +38,33 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Hibernate: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Hibernate: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Hibernate: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Hibernate: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="HibernateConnection/Hibernate" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Hibernate: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="hibernate: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="738187684">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.103" value="2" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.120" value="1" />
           <entry key="project.open.time.132" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,37 +72,37 @@
           <entry key="hibernate" value="6" />
           <entry key="hibernate_pkey" value="1" />
           <entry key="java" value="7" />
-          <entry key="jsp" value="2" />
+          <entry key="jsp" value="4" />
           <entry key="tld" value="3" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="6" />
           <entry key="JAVA" value="7" />
-          <entry key="JSP" value="2" />
+          <entry key="JSP" value="4" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="11" />
-          <entry key="java" value="1033" />
-          <entry key="jsp" value="251" />
+          <entry key="java" value="1053" />
+          <entry key="jsp" value="294" />
           <entry key="tld" value="315" />
-          <entry key="txt" value="21" />
-          <entry key="xml" value="720" />
+          <entry key="txt" value="30" />
+          <entry key="xml" value="761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1033" />
-          <entry key="JSP" value="251" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="JAVA" value="1053" />
+          <entry key="JSP" value="294" />
+          <entry key="PLAIN_TEXT" value="30" />
           <entry key="Scratch" value="11" />
-          <entry key="XML" value="1035" />
+          <entry key="XML" value="1076" />
         </counts>
       </usages-collector>
     </session>
@@ -154,84 +111,7 @@
     <favorites_list name="HibernateConnection" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/ServletUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/META-INF/Persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/SimpleHibernateConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://96815685-04d4-4015-9e13-3ec18eed72e6/database/Hibernate/schema/public/table/hibernate">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/store/UserStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -254,8 +134,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/UserView.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/com.model/User.hbm.xml.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml.tld" />
         <option value="$PROJECT_DIR$/src/main/resources/com.model/User.hbm.xml" />
@@ -263,11 +141,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/Persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlet/ServletUser.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" />
         <option value="$PROJECT_DIR$/src/resources/META-INF/Persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/SimpleHibernateConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/store/UserStore.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/UserView.jsp" />
       </list>
     </option>
   </component>
@@ -363,90 +243,24 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateConnection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateConnection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535220066823" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535308973057" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -459,7 +273,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -467,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\workspaceIntel\HibernateConnection\src\main" />
       <recent name="E:\Java\workspaceIntel\HibernateConnection\src" />
       <recent name="E:\Java\workspaceIntel\HibernateConnection\src\main\webapp\resources" />
       <recent name="E:\Java\workspaceIntel\HibernateConnection\src\main\webapp" />
       <recent name="E:\Java\workspaceIntel\HibernateConnection\src\main\resources\META-INF" />
-      <recent name="E:\Java\workspaceIntel\HibernateConnection\src\main\resources\com\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,8 +300,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleHibernateConnection">
-    <configuration name="SimpleHibernateConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="SimpleHibernateConnection" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SimpleHibernateConnection" />
       <module name="HibernateConnection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -523,7 +337,7 @@
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="HibernateConnection:war exploded">
+        <artifact name="HibernateConnection:web exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/hibernate" />
           </settings>
@@ -588,19 +402,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="HibernateConnection:war exploded" />
+          <artifact name="HibernateConnection:web exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.SimpleHibernateConnection" />
+      <item itemvalue="Tomcat Server.Tomcat" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SimpleHibernateConnection" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Vasyl\AppData\Roaming\Subversion</configuration>
@@ -628,7 +437,12 @@
       <workItem from="1534941230591" duration="333000" />
       <workItem from="1534942122908" duration="4087000" />
       <workItem from="1535117377757" duration="5107000" />
-      <workItem from="1535219191216" duration="1471000" />
+      <workItem from="1535219191216" duration="2244000" />
+      <workItem from="1535227032647" duration="24000" />
+      <workItem from="1535283022302" duration="7010000" />
+      <workItem from="1535307058675" duration="2012000" />
+      <workItem from="1535310274583" duration="153000" />
+      <workItem from="1535311786814" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="User view">
       <created>1534688739527</created>
@@ -658,17 +472,23 @@
       <option name="project" value="LOCAL" />
       <updated>1535120735977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modify SimpleHibernateConnection">
+      <created>1535225058402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535225058402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46423000" />
+    <option name="totallyTimeSpent" value="56430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48058254" visible="true" weight="0.29637527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47505423" visible="true" weight="0.30916846" />
       <window_info id="Structure" order="1" sideWeight="0.51084596" side_tool="true" weight="0.2771855" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -676,10 +496,10 @@
       <window_info id="Favorites" order="5" sideWeight="0.51084596" side_tool="true" weight="0.2771855" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.51084596" side_tool="true" weight="0.2771855" />
-      <window_info id="Persistence" order="8" sideWeight="0.51941746" side_tool="true" visible="true" weight="0.29637527" />
+      <window_info id="Persistence" order="8" sideWeight="0.5249458" side_tool="true" visible="true" weight="0.30916846" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -703,6 +523,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" sideWeight="0.5021692" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,17 +565,12 @@
     <MESSAGE value="Hibernate" />
     <MESSAGE value="annotation" />
     <MESSAGE value="SimpleHibernateConnection" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleHibernateConnection" />
+    <MESSAGE value="Modify SimpleHibernateConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify SimpleHibernateConnection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/servlet/ServletUser.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/store/UserStore.java</url>
           <line>26</line>
@@ -768,13 +586,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/model/User.hbm.xml" />
     <entry file="das://1a408427-b2db-44d3-8989-9e697154fed5/database/Hibernate/schema/public/table/hibernate" />
     <entry file="das://890d66a9-c141-45ee-a709-aac2646b8bda/database/Hibernate/schema/public/table/hibernate" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -782,72 +593,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/UserView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://db218f39-4859-43ca-b7d6-28c76e6c4e2e/database/Hibernate/schema/public/table/hibernate" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://96815685-04d4-4015-9e13-3ec18eed72e6/database/Hibernate/schema/public/table/hibernate" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/ServletUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/META-INF/Persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/META-INF/Persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://96815685-04d4-4015-9e13-3ec18eed72e6/database/Hibernate/schema/public/table/hibernate">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="1700">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SimpleHibernateConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/UserView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/store/UserStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -870,9 +679,9 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
               <type id="artifact" />
               <type id="javaee-facet-resources" />
+              <type id="library" />
               <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
@@ -924,11 +733,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|HibernateConnection</last-edited>
+          <last-edited>HibernateConnection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -947,7 +757,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: commons-lang:commons-lang:2.6</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
